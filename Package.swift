@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "series-engine-swift",
     dependencies: [
+        .package(url: "https://github.com/yaslab/CSV.swift.git", .upToNextMinor(from: "2.4.2"))
     ],
     targets: [
         .target(
