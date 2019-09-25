@@ -11,7 +11,7 @@ let package = Package(
     targets: [
         .target(
             name: "series-engine-swift",
-            dependencies: []),
+            dependencies: ["CSV"]),
         .testTarget(
             name: "series-engine-swiftTests",
             dependencies: ["series-engine-swift"]),
